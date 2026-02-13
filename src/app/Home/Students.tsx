@@ -1,7 +1,6 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { div } from "framer-motion/client";
 import Image from "next/image";
 import { useRef } from "react";
 
@@ -35,7 +34,7 @@ export default function Students() {
         </div>
 
         <div className="space-y-12">
-          {/* STEP 1 — LEFT */}
+          {/* STEP 1  */}
           <motion.div
             ref={step1Ref}
             initial={{ opacity: 0, y: 40 }}
@@ -89,7 +88,7 @@ export default function Students() {
             </div>
           </motion.div>
 
-          {/* STEP 2 — RIGHT */}
+          {/* STEP 2  */}
           <motion.div
             ref={step2Ref}
             initial={{ opacity: 0, y: 40 }}
@@ -98,7 +97,7 @@ export default function Students() {
             transition={{ duration: 0.5 }}
             className="flex justify-end relative"
           >
-            {/* SVG CONNECTOR 2 — START AFTER FIRST LINE */}
+            {/* SVG CONNECTOR 2  */}
             <div className="relative">
               <svg
                 width="159"
@@ -146,7 +145,7 @@ export default function Students() {
             </div>
           </motion.div>
 
-          {/* STEP 3 — LEFT */}
+          {/* STEP 3  */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
