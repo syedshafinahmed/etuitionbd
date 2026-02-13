@@ -57,7 +57,7 @@ export default function Students() {
               </motion.div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-black dark:text-white mb-2">
+                <h3 className="text-xl md:text-3xl font-extralight text-black dark:text-white mb-2">
                   Submit Your Hiring Requirement
                 </h3>
                 <p className="text-black/70 dark:text-white/70">
@@ -134,7 +134,7 @@ export default function Students() {
               </motion.div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-black dark:text-white mb-2">
+                <h3 className="text-xl md:text-3xl font-extralight text-black dark:text-white mb-2">
                   Shortlist from Applied Tutors
                 </h3>
                 <p className="text-black/70 dark:text-white/70">
@@ -167,7 +167,7 @@ export default function Students() {
               </motion.div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-black dark:text-white mb-2">
+                <h3 className="text-xl md:text-3xl font-extralight text-black dark:text-white mb-2">
                   Appoint the Best One & Confirm Hiring
                 </h3>
                 <p className="text-black/70 dark:text-white/70">
