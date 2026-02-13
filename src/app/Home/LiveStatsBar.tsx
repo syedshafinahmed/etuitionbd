@@ -17,6 +17,10 @@ const locations = [
   "Rajshahi (59)",
   "Dhaka (120)",
   "Chattogram (98)",
+  "Khulna (45)",
+  "Sylhet (32)",
+  "Mirpur (28)",
+  "Uttara (35)",
 ];
 
 export default function LiveStatsBar() {
