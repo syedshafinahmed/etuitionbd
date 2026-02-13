@@ -1,8 +1,12 @@
-import Image from "next/image";
+"use client"; 
 import Banner from "./Home/Banner";
+import LiveStatsBar from "./Home/LiveStatsBar";
 
 export default function Home() {
   return (
-    <Banner />
+    <>
+      <Banner />
+      <LiveStatsBar />
+    </>
   );
 }

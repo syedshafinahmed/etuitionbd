@@ -10,8 +10,8 @@ const Banner = () => {
         <div className="absolute inset-0 opacity-50 animate-grid-slide bg-[linear-gradient(to_right,rgba(0,0,0,0.5)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.5)_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-size-[40px_40px]" />
         {/* LEFT CONTENT */}
         <motion.div
-          initial={{ opacity: 0, x: -100 }} 
-          animate={{ opacity: 1, x: 0 }} 
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="space-y-6"
         >
@@ -80,8 +80,8 @@ const Banner = () => {
 
         {/* RIGHT IMAGE COLLAGE */}
         <motion.div
-          initial={{ opacity: 0, x: 100 }} 
-          animate={{ opacity: 1, x: 0 }} 
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="relative hidden md:flex justify-center md:justify-end"
         >
