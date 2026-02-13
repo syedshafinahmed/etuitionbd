@@ -49,7 +49,6 @@
   --radius-4xl: calc(var(--radius) + 16px);
 }
 
-
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -137,4 +136,18 @@
 
 .farsan {
   font-family: "Farsan", cursive;
+}
+
+@keyframes grid-slide {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 40px 40px;
+  }
+}
+
+.animate-grid-slide {
+  animation: grid-slide 1s linear infinite;
 }
