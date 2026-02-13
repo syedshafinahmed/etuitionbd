@@ -99,7 +99,7 @@ const Navbar = () => {
           {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
-            className="border rounded-md p-2 hover:bg-muted transition"
+            className="border rounded-md p-2 hover:bg-muted transition border-primary/30"
           >
             {theme === "light" ? <MdDarkMode /> : <MdOutlineLightMode />}
           </button>
@@ -107,7 +107,7 @@ const Navbar = () => {
           {/* Login Button */}
           <Link
             href="/login"
-            className="bg-accent text-accent-foreground px-4 py-1 rounded-md font-extralight border border-primary/20 hover:opacity-90 transition hidden md:inline-flex"
+            className="bg-foreground text-secondary px-4 py-1 rounded-md font-extralight hover:opacity-90 transition hidden md:inline-flex"
           >
             Login
           </Link>
