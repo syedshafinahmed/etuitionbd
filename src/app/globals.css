@@ -151,3 +151,7 @@
 .animate-grid-slide {
   animation: grid-slide 1s linear infinite;
 }
+
+.slider .swiper-pagination-bullet-active {
+  @apply bg-foreground;
+}
