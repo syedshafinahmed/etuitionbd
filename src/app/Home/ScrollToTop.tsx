@@ -26,7 +26,7 @@ const ScrollToTop = () => {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.5, y: 20 }}
           transition={{ duration: 0.3, type: "spring", stiffness: 200 }}
-          className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50 group"
+          className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50 group animate-accordion-up"
         >
           {/* Tooltip */}
           <div className="absolute -top-12 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-lg bg-black/90 dark:bg-white/90 backdrop-blur-sm px-3 py-1.5 text-xs text-white dark:text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-lg z-50">
