@@ -12,7 +12,7 @@ import { TbBrandGithubFilled } from "react-icons/tb";
 const Footer = () => {
   return (
     <footer className="bg-background backdrop-blur-md border-t border-white/20 dark:border-gray-700/20">
-      <div className="max-w-7xl mx-auto px-10 py-12 md:py-16 flex flex-col md:flex-row justify-between gap-12">
+      <div className="max-w-7xl mx-auto px-10 py-12 md:py-16 flex flex-col md:flex-row justify-around gap-30">
         {/* Logo & Description */}
         <div className="flex flex-col gap-4 md:w-1/3">
           <Link href="/" className="flex items-center gap-2">
@@ -68,7 +68,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="flex flex-col gap-4 md:w-1/3">
-          <h4 className="text-lg font-extralight text-black dark:text-white">
+          <h4 className="text-xl font-extralight text-black dark:text-white">
             Quick Links
           </h4>
           <ul className="flex flex-col gap-2 text-sm text-black/60 dark:text-white/60">
@@ -92,24 +92,37 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        <div className="flex flex-col gap-4 md:w-1/3">
+          <h4 className="text-xl font-extralight text-black dark:text-white">
+            Legal
+          </h4>
+          <ul className="flex flex-col gap-2 text-sm text-black/60 dark:text-white/60">
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+          </ul>
+        </div>
 
         {/* Contact / Newsletter */}
         <div className="flex flex-col gap-4 md:w-1/3">
-          <h4 className="text-lg font-extralight text-black dark:text-white">
+          <h4 className="text-xl font-extralight text-black dark:text-white">
             Stay Updated
           </h4>
           <p className="text-sm text-black/60 dark:text-white/60">
             Subscribe to our newsletter for updates, offers, and new features.
           </p>
           <form className="flex flex-col sm:flex-row gap-2">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-2 rounded-md border border-black/20 dark:border-white/20 bg-white/10 dark:bg-gray-800/30 placeholder-black/40 dark:placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-primary"
-            />
+            <div className="group">
+              <input
+                type="email"
+                placeholder="Enter your mail"
+                className="bg-transparent border-b border-black/30 dark:border-white/30 py-3 outline-none
+              focus:border-black dark:focus:border-white transition-colors w-50"
+              />
+            </div>
             <button
               type="submit"
-              className="px-4 py-2 bg-foreground text-secondary rounded-md hover:opacity-90 transition mt-2 sm:mt-0"
+              className="px-4 bg-foreground text-secondary rounded-md hover:opacity-90 transition mt-2 sm:mt-0"
             >
               Subscribe
             </button>
