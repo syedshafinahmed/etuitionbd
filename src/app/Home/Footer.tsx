@@ -7,11 +7,12 @@ import {
   FaGithub,
   FaGlobe,
 } from "react-icons/fa";
+import { TbBrandGithubFilled } from "react-icons/tb";
 
 const Footer = () => {
   return (
     <footer className="bg-background backdrop-blur-md border-t border-white/20 dark:border-gray-700/20">
-      <div className="max-w-7xl mx-auto px-6 py-12 md:py-16 flex flex-col md:flex-row justify-between gap-12">
+      <div className="max-w-7xl mx-auto px-10 py-12 md:py-16 flex flex-col md:flex-row justify-between gap-12">
         {/* Logo & Description */}
         <div className="flex flex-col gap-4 md:w-1/3">
           <Link href="/" className="flex items-center gap-2">
@@ -39,7 +40,7 @@ const Footer = () => {
               href="https://github.com/syedshafinahmed"
               className="p-2 border border-primary/30 rounded-md hover:bg-white/20 transition text-black dark:text-white"
             >
-              <FaGithub />
+              <TbBrandGithubFilled />
             </a>
             <a
               aria-label="Portfolio"
