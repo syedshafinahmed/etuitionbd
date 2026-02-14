@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 
-export default function Students() {
+export default function Teachers() {
   const step1Ref = useRef<HTMLDivElement>(null);
   const step2Ref = useRef<HTMLDivElement>(null);
 
@@ -29,7 +29,7 @@ export default function Students() {
         {/* Heading */}
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            How does it work for Guardians/Students?
+            How does it work for Tutors?
           </h2>
         </div>
 
@@ -49,8 +49,8 @@ export default function Students() {
                 className="relative w-full md:w-40 h-40 rounded-md overflow-hidden border border-foreground/40"
               >
                 <Image
-                  src="https://plus.unsplash.com/premium_photo-1661328090120-a6ef40841abe?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Submit Requirement"
+                  src="https://images.unsplash.com/photo-1746014600883-57f4b16a7012?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Complete Profile"
                   fill
                   className="object-cover"
                 />
@@ -58,11 +58,11 @@ export default function Students() {
 
               <div>
                 <h3 className="text-xl md:text-3xl font-extralight text-black dark:text-white mb-2">
-                  Submit Your Hiring Requirement
+                  Complete Your Profile
                 </h3>
                 <p className="text-black/70 dark:text-white/70">
-                  Fill out all the required fields and submit your tutoring
-                  requirement.
+                  Complete your profile by including your personal, educational,
+                  tuition related and supporting documentation details.
                 </p>
               </div>
             </div>
@@ -126,8 +126,8 @@ export default function Students() {
                 className="relative w-full md:w-40 h-40 rounded-md overflow-hidden border border-foreground/40"
               >
                 <Image
-                  src="https://plus.unsplash.com/premium_photo-1676666377229-12a9ad6b186a?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Shortlist Tutors"
+                  src="https://plus.unsplash.com/premium_photo-1661545983659-7128881a433f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Apply to Tuition Jobs"
                   fill
                   className="object-cover"
                 />
@@ -135,11 +135,11 @@ export default function Students() {
 
               <div>
                 <h3 className="text-xl md:text-3xl font-extralight text-black dark:text-white mb-2">
-                  Shortlist from Applied Tutors
+                  Apply to Your Desired Tuition Job
                 </h3>
                 <p className="text-black/70 dark:text-white/70">
-                  Review applications and shortlist up to 5 tutors that match
-                  your needs.
+                  Check the job board everyday and apply on desirable tuition
+                  jobs which match with you the most.
                 </p>
               </div>
             </div>
@@ -159,8 +159,8 @@ export default function Students() {
                 className="relative w-full md:w-40 h-40 rounded-md overflow-hidden border border-foreground/40"
               >
                 <Image
-                  src="https://plus.unsplash.com/premium_photo-1664047472774-12d0a7796c60?q=80&w=870&auto=format&fit=crop"
-                  alt="Confirm Hiring"
+                  src="https://plus.unsplash.com/premium_photo-1661371394983-42485fed3a58?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Get Selected"
                   fill
                   className="object-cover"
                 />
@@ -168,11 +168,11 @@ export default function Students() {
 
               <div>
                 <h3 className="text-xl md:text-3xl font-extralight text-black dark:text-white mb-2">
-                  Appoint the Best One & Confirm Hiring
+                  Get Selected
                 </h3>
                 <p className="text-black/70 dark:text-white/70">
-                  Take trial classes, select the best tutor, and confirm your
-                  hiring.
+                  Take the trial classes and confirm your expected tuition job.
+                  Happy tutoring!
                 </p>
               </div>
             </div>
