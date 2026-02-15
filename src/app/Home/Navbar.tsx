@@ -81,7 +81,7 @@ const Navbar = () => {
   );
 
   return (
-    <header className="sticky top-0 z-50 bg-background/10 backdrop-blur-md border-b border-foreground/10 overflow-hidden0">
+    <header className="fixed top-0 left-0 w-full z-50 bg-background/10 backdrop-blur-md border-b border-foreground/10 overflow-hidden0">
       <nav className="max-w-7xl mx-auto px-10 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">

@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LuTriangle } from "react-icons/lu";
@@ -48,7 +49,7 @@ const ScrollToTop = () => {
               border border-black/20 dark:border-white/20
               backdrop-blur-xl
               transition-all duration-300
-              hover:border-black dark:hover:border-white
+              hover:border-black/30 dark:hover:border-white/30
             "
           >
             {/* Icon */}

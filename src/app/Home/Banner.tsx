@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section className="relative overflow-hidden bg-background flex items-center px-20">
+    <section className="relative overflow-hidden bg-background flex items-center px-20 mt-15">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="absolute inset-0 opacity-50 animate-grid-slide bg-[linear-gradient(to_right,rgba(0,0,0,0.5)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.5)_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-size-[40px_40px]" />
         {/* LEFT CONTENT */}
