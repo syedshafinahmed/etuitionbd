@@ -6,6 +6,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 const categories = [
   {
@@ -84,7 +85,9 @@ const Categories = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <div className="w-full bg-background py-20 px-10">
-        <h1 className="text-3xl font-bold mb-10">Programs & Learning Solutions</h1>
+        <h1 className="text-3xl font-bold mb-10">
+          Programs & Learning Solutions
+        </h1>
         <Swiper
           modules={[Pagination, Autoplay]}
           spaceBetween={20}
@@ -102,12 +105,19 @@ const Categories = () => {
         >
           {categories.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="rounded-xl overflow-hidden mb-13 shadow-md bg-background border border-foreground/20">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-40 object-cover"
-                />
+              <div className="rounded-md overflow-hidden mb-13 shadow-md bg-background border border-foreground/20">
+                {/* IMAGE WRAPPER */}
+                <div className="relative w-full h-48">
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 300px"
+                    className="object-cover"
+                    quality={100}
+                    priority={false}
+                  />
+                </div>
                 <div className="p-4 text-center">
                   <h3 className="text-base font-extralight">{item.title}</h3>
                 </div>
