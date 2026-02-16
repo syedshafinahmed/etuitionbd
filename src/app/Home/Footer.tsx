@@ -4,7 +4,6 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaGithub,
   FaGlobe,
 } from "react-icons/fa";
 import { TbBrandGithubFilled } from "react-icons/tb";
